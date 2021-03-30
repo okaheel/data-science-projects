@@ -30,3 +30,18 @@ Implementation of a Part of Speech tagger for Keyword filtering to help with ide
 The goal of this project was to analyze the iris dataset and find patterns using various lots and K means clustering and a quick analysis of US births data as a time series to understand when births peak relative to holidays in the US
 
 ### Dataset Reccomender
+
+This is an implementation of a recommender system for NCAR EOL’s DASH system. The goal of this recommender was to recommend similar datasets from projects that the selected dataset does not belong to. The implementation used a TFIDF and sigmoid score implementation to pick the best datasets to recommend
+
+### Feature Vector
+
+This is a feature vector implementation to generate a vector for a selected string, this was used along side of a sigmoid similarity implementation to find how similar specific chunks of text were
+
+### NaN clear 
+
+This is an implementation of data imputation for missing values using SKlearn’s simple impute 
+
+### Paser
+
+This is a simple implementation of a data retriever from webpages using beautiful soup
+
